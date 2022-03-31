@@ -3,6 +3,8 @@ package in.geekster.springtutorial.helloworldapp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -15,8 +17,10 @@ public class HelloworldappApplication {
 	@Autowired
 	private SampleJavaBean bean;
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(HelloworldappApplication.class, args);
+
 	}
 
 	@PostConstruct

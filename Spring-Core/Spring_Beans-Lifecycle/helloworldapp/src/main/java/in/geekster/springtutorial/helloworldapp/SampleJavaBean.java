@@ -26,7 +26,7 @@ public class SampleJavaBean {
     }
 
     @PostConstruct
-    public void init() {
+    public void abc() {
         System.out.println("\n\n<><><> HEY THERE <><><>\n\n");
     }
 
