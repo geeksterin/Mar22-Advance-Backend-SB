@@ -1,0 +1,21 @@
+#Application Properties
+server:
+  port: 3030
+spring:
+  application:
+    name: "Hello World"
+
+# Custom Property
+messages:
+  greet: "Hello Students!"
+  welcome:
+    - "Welcome to Geekster"
+    - "Welcome to This Tutorial"
+    - "Welcome to this Springboot Session"
+
+custom-messages:
+  msg1: "Hi"
+  msg2: "Hey"
+  msg:
+    k1: "v1"
+    k2: "v2"
